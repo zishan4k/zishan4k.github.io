@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0" >
+    <title>Zishan Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <script src="https://kit.fontawesome.com/d5b9bdc958.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  
+  <body>
+
+    <!-- Navigation Bar -->
+
+    <header class="header">
+      <div class="logo">
+          <a href="index.html"><h2>&lt;zishan&gt;</h2></a>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+          <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <!-- Introduction -->
+      
+      <section class="intro" id="home">
+          <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Zishan Ahmed</strong>
+          </h1>
+          <p class="section__subtitle section__subtitle--intro">Front-End Developer</p>
+          <img class="intro__img" src="images/zishan-01.JPG" alt="A picture of Zishan on the rocks in a stream">
+      </section>
+
+      <!-- My Services -->
+
+      <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">My Skills</h2>
+        <div class="skills">
+          
+          <div class="skill">
+            <h3><i class="fab fa-html5"></i></h3>
+            <p>Intermediate in HTML</p> 
+          </div> <!-- skill -->
+          <div class="skill">
+            <h3><i class="fab fa-css3-alt"></i></h3>
+            <p>Intermediate in CSS</p> 
+          </div> <!-- skill -->
+          <div class="skill">
+            <h3><i class="fab fa-js"></i></h3>
+            <p>Intermediate in Javascript</p> 
+          </div> <!-- skill -->
+          <div class="skill">
+            <h3><i class="fab fa-git"></i></h3>
+            <p>Intermediate in Git/Github</p> 
+          </div> <!-- skill -->
+          <div class="skill">
+            <h3><i class="fab fa-python"></i></h3>
+            <p>Beginner in Python</p> 
+          </div> <!-- skill -->
+          <div class="skill">
+            <h3><i class="fas fa-universal-access"></i></h3>
+            <p>Beginner in Accessibility</p> 
+          </div> <!-- skill -->
+
+        </div> <!-- skills -->
+
+        <a href="#projects" class="btn">My Projects</a>
+      </section>
+
+      <!-- About Me -->
+
+      <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">About Me</h2>
+        <p class="section__subtitle section__subtitle--about">Front-End Developer based in Southampton</p>
+        <div class="about-me__body">
+          <p>I am a front-end developer that uses HTML, CSS and Javascript to design highly customized websites for clients looking for a unique company image or brand look. Whether it be a modern or tradional design, I have the skills to meet the required needs for your website.</p>
+        </div>
+        <img class="about-me__img" src="images/zishan-02.JPG" alt="A picture of Zishan sitting on rocks">
+      </section>
+
+      <!-- My Projects -->
+
+      <section class="my-projects" id="projects">
+        <h2 class="section__title section__title--projects">My Projects</h2>
+        <p class="section__subtitle section__subtitle--projects">A selection of projects I have worked on so far.</p>
+        <div class="portfolio">
+
+          <!-- Portfolio Item 01 -->
+          <a href="zishan4k.github.io/excursion" class="portfolio__item">
+            <img src="images/portfolio-01.png" alt="" class="portfolio__img">
+          </a>
+
+          <!-- Portfolio Item 02 -->
+          <a href="zishan4k.github.io/tea-cozy" class="portfolio__item">
+            <img src="images/portfolio-02.png" alt="" class="portfolio__img">
+          </a>
+          
+          <!-- Portfolio Item 03 -->
+          <a href="zishan4k.github.io/pizza-hut" class="portfolio__item">
+            <img src="images/portfolio-03.png" alt="" class="portfolio__img">
+          </a>
+
+          <!-- Portfolio Item 04 -->
+          <a href="zishan4k.github.io/poker-club" class="portfolio__item">
+            <img src="images/portfolio-04.png" alt="" class="portfolio__img">
+          </a>
+
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <a href="mailto:zishan_ahmed@hotmail.co.uk" class="footer__link">zishan_ahmed@hotmail.co.uk</a>
+      <ul class="social-list">
+        <li class="social-list__item"><a href="https://www.linkedin.com/in/zishan-ahmed-0209b2100" class="social-list__link"><i class="fab fa-linkedin"></i></a></li>
+        <li class="social-list__item"><a href="https://github.com/zishan4k/zishan4k.github.io" class="social-list__link"><i class="fab fa-github"></i></a></li>
+        <li class="social-list__item"><a href="mailto:zishan_ahmed@hotmail.co.uk" class="social-list__link"><i class="far fa-envelope"></i></a></li>
+      </ul>
+    </footer>
+
+    <!-- JavaScript file link -->
+
+    <script src="script.js"></script>
+
+  </body>
+</html>
